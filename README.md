@@ -126,7 +126,7 @@ Install dependencies with:
 
 ```bash
 pip install requests beautifulsoup4
-
+```
 
 
 
@@ -245,7 +245,7 @@ Through this project, I gained hands-on experience in:
 
 ```bash
 pip install pandas matplotlib
-
+```
 
 
 
@@ -291,7 +291,7 @@ To understand and modify this project, you'll need:
 ```bash
 git clone https://github.com/your-username/image-resizer-batch-tool.git
 cd image-resizer-batch-tool
-
+```
 
 
 
