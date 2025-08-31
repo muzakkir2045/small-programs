@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="contact">
+    <h2>📬 Contact Me</h2>
+    <p>I'd love to hear from you! Fill in the form below and I'll get back to you as soon as possible.</p>
+    <form method="post" action="{{ url_for('contact') }}">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Send</button>
+    </form>
+
+    <h3>Alternative contact</h3>
+    <ul>
+        <li>Email: muzakkir2045@email.com</li>
+        <li>Phone: +919220411404</li>
+        <li>Location: Thane, Maharashtra, India</li>
+    </ul>
+</section>
+{% endblock %}
